@@ -1,15 +1,15 @@
 import { Container } from "./container"
-import { Navigation } from "./navigation"
-
 
 export const Header = () => {
-    return( <Container>
-                <Navigation>
-                    <a href="">Melahat Tayli</a>
-                    <a href="">Research</a>
-                    <a href="">Software</a>
-                </Navigation>
-
+    return( 
+        <div className="header">
+            <Container>
+                <div className="navigation">
+                    <a href=".home.js">Melahat Tayli</a>
+                    <a id="rightNav1" href="./research.js">Research</a>
+                    <a id="rightNav2" href="./software.js">Software</a>
+                </div>
             </Container>
+        </div>
     );
 };
