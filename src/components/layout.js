@@ -1,7 +1,3 @@
-export const Layout = ({children}) => {
-    return (
-        <div className="layout">
-            {children}
-        </div>
-    );
+export const Layout = ({ children }) => {
+  return <div className="layout">{children}</div>;
 };
