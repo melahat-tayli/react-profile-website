@@ -1,109 +1,109 @@
-.layout{
-  display:grid;
+.layout {
+  display: grid;
   width: 100%;
-  height: 100%;   
+  height: 100%;
 }
 
-.header{
+.header {
   display: grid;
   width: 100%;
   justify-content: center;
-  background-color: rgb(247,247,247);
-  border-bottom: 1px solid rgb(217,217,217);
+  background-color: rgb(247, 247, 247);
+  border-bottom: 1px solid rgb(217, 217, 217);
   height: 50px;
   position: fixed;
   top: 0;
   left: 0px;
 }
 
-.homeMain{
+.homeMain {
   display: grid;
   justify-content: center;
   padding-top: 40px;
   padding-bottom: 0px;
-  height:auto;
+  height: auto;
 }
 
-
-.footer{
+.footer {
   display: grid;
   justify-content: center;
-  background-color: rgb(247,247,247);
-  border-top: 1px solid rgb(217,217,217);
+  background-color: rgb(247, 247, 247);
+  border-top: 1px solid rgb(217, 217, 217);
   height: 100px;
   margin-top: auto;
 }
 
-.container{
+.container {
   height: 100%;
   width: 700px;
 }
 
-.navigation{
-  display:grid;
+.navigation {
+  display: grid;
   height: 100%;
-  grid-template-columns: 200px  auto 100px 100px;
+  grid-template-columns: 200px auto 100px 100px;
   align-items: center;
   font-family: Helvetica Neue;
   font-size: 22px;
 }
 
-#rightNav1{
+#rightNav1 {
   grid-column: 3 / span 1;
   font-size: 18px;
   text-align: right;
 }
 
-#rightNav2{
+#rightNav2 {
   grid-column: 4 / span 1;
-  font-size: 18px ;
+  font-size: 18px;
   text-align: right;
 }
 
-.homeContent{
-  display:grid;
+.homeContent {
+  display: grid;
   grid-template-columns: 300px 400px;
   grid-template-rows: 275px 275px;
 }
 
-.researchContent{
+.researchContent {
   height: auto;
 }
 
-.softwareContent{
-  height:auto;
+.softwareContent {
+  height: auto;
 }
 
-.footerContent{
-  display:grid;
+.footerContent {
+  display: grid;
   grid-template-columns: 250px auto 250px;
 }
-.contactList, .socialMediaList{
+.contactList,
+.socialMediaList {
   list-style: none;
   padding: 0;
 }
-.socialMediaList{
+.socialMediaList {
   grid-column: 3 / span 1;
   text-align: right;
 }
 
-p{
+p {
   text-align: justify;
 }
 
-a{
+a {
   text-decoration: none;
 }
 
-.header a{
-  color: rgb(66,66,66);
+.header a {
+  color: rgb(66, 66, 66);
 }
 
-a{
-  color:cornflowerblue;
+a {
+  color: cornflowerblue;
   text-decoration: none;
 }
 
-h2{
+h2 {
   padding: 0;
 }
