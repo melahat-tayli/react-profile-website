@@ -4,7 +4,7 @@ export const Research = () => {
   return (
     <div className="researchContent">
       <Container>
-        <div >
+        <div>
           <h2>Research</h2>
           <h3>Publications</h3>
           <ol>
@@ -23,8 +23,8 @@ export const Research = () => {
             </li>
             <li>
               <a href="https://onlinelibrary.wiley.com/doi/10.1002/pola.28442">
-                Efficient initiation of radical-mediated thiol-ene chemistry with
-                photoactive silica particles
+                Efficient initiation of radical-mediated thiol-ene chemistry
+                with photoactive silica particles
               </a>
             </li>
             <li>
@@ -41,8 +41,8 @@ export const Research = () => {
             </li>
             <li>
               <a href="https://pubs.acs.org/doi/abs/10.1021/ma202672y">
-                Dynamics and Large Strain Behavior of Self-Healing Hydrogels with
-                and without Surfactants
+                Dynamics and Large Strain Behavior of Self-Healing Hydrogels
+                with and without Surfactants
               </a>
             </li>
             <li>

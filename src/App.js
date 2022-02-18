@@ -18,7 +18,7 @@ const App = () => {
           <Route path="/research" element={<Research />} />
         </Routes>
         <Footer />
-      </Layout> 
+      </Layout>
     </Router>
   );
 };
